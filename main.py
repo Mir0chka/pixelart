@@ -6,7 +6,7 @@ from controller.pixelartcontroller import PixelArtController
 
 class PixelArtApp:
     def __init__(self, root):
-        self.model = PixelArtModel(100, 100, 10)
+        self.model = PixelArtModel(50, 50, 10)
         self.view = PixelArtView(root, self.model)
         self.controller = PixelArtController(self.model, self.view)
 
